@@ -1,0 +1,21 @@
+{
+  "name": "s3pay",
+  "version": "1.0.0",
+  "description": "s3 cp and ls commands for requester-pays buckets",
+  "bin": {
+    "s3pay": "s3pay.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mapbox/s3pay.git"
+  },
+  "author": "Mapbox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapbox/s3pay/issues"
+  },
+  "homepage": "https://github.com/mapbox/s3pay",
+  "dependencies": {
+    "aws-sdk": "^2.0.23"
+  }
+}
