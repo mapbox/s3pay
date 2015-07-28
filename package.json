@@ -1,6 +1,6 @@
 {
   "name": "s3pay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "s3 cp and ls commands for requester-pays buckets",
   "bin": {
     "s3pay": "s3pay.js"
