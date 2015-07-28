@@ -67,7 +67,7 @@ function listObjects(marker) {
       console.log(JSON.stringify(item, null, 2));
     });
 
-    if (response.data.IsTruncated) listObjects(data.NextMarker);
+    if (response.data.IsTruncated) listObjects(response.data.NextMarker);
   });
   req.on('error', function(err) {
     console.error('ListObjects failed with %s', err);
